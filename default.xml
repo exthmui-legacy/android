@@ -643,4 +643,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- exTHmUI -->
+  <include name="snippets/exthm.xml" />
+
 </manifest>

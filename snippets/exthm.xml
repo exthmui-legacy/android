@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".." />
+
+  <remote  name="exthm"
+           fetch="https://github.com/exthmui"
+           revision="exthm-9" />
+
+  <!-- Packages -->
+  <project path="packages/apps/exTHmSettings" name="android_packages_apps_exTHmSettings" remote="exthm" />
+
+</manifest>
