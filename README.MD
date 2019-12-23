@@ -50,3 +50,14 @@ git add .
 git commit -m “提交内容”
 git push -u origin <目标分支>
 ```
+=======
+## exTHmUI
+</hr>
+
+### Get started
+</br>
+
+```bash
+repo init https://github.com/exthmui/android.git -b exthm-9
+repo sync
+```
