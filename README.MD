@@ -2,7 +2,7 @@
 ![](logo.jpg)
 
 
-#下载源码
+# 下载源码
 
 安装repo
 ```
@@ -43,21 +43,10 @@ lunch lineage_你的设备代号-userdebug
 ```
 mka bacon -j8
 ```
-#提交更改
+# 提交更改
 ```
 cd <项目目录>
 git add .
 git commit -m “提交内容”
 git push -u origin <目标分支>
-```
-=======
-## exTHmUI
-</hr>
-
-### Get started
-</br>
-
-```bash
-repo init https://github.com/exthmui/android.git -b exthm-9
-repo sync
 ```
