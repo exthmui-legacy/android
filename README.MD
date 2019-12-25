@@ -43,7 +43,9 @@ lunch lineage_你的设备代号-userdebug
 ```
 mka bacon -j8
 ```
-# 提交更改
+
+# 给exTHmUI提交更改
+
 ```
 cd <项目目录>
 git add .
