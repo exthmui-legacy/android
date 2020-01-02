@@ -4,20 +4,20 @@
 
 # 下载源码
 
+安装必要工具
+```
+sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
+```
 安装repo
 ```
 sudo apt install repo
 ```
-
-安装Git
-```
-sudo apt install git
-```
-```
 初始化repo
 ```
+mkdir -p ~/android/exthm
+cd ~/android/exthm
 repo init -u https://github.com/exthmui/android.git -b exthm-9
-repo init -u https://github.com/exthmui/android.git -b exthm-9 --depth=1  //更快的下载速度
+(repo init -u https://github.com/exthmui/android.git -b exthm-9 --depth=1  //更快的下载速度)
 ```
 同步源码
 ```
