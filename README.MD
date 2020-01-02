@@ -13,14 +13,11 @@ sudo apt install repo
 ```
 sudo apt install git
 ```
-安装jdk
-```
-sudo apt install openjdk-8-jdk
 ```
 初始化repo
 ```
-repo init https://github.com/exthmui/android.git -b exthm-9
-repo init https://github.com/exthmui/android.git -b exthm-9 --depth=1  //更快的下载速度
+repo init -u https://github.com/exthmui/android.git -b exthm-9
+repo init -u https://github.com/exthmui/android.git -b exthm-9 --depth=1  //更快的下载速度
 ```
 同步源码
 ```
