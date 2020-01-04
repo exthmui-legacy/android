@@ -24,4 +24,6 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="exthm" />
 
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="exthm" />
+
 </manifest>
