@@ -10,7 +10,10 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 ```
 安装repo
 ```
-sudo apt install repo
+mkdir -p ~/android/lineage
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+export PATH="$HOME/bin:$PATH"
 ```
 初始化repo
 ```
@@ -38,7 +41,7 @@ lunch lineage_你的设备代号-userdebug
 ```
 编译
 ```
-mka bacon -j8
+brunch 你的设备代号
 ```
 
 # 给exTHmUI提交更改
