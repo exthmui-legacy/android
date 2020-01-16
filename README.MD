@@ -1,5 +1,5 @@
 ## exTHmUI
-![](logo.jpg)
+![](logo.png)
 
 
 # 下载源码
