@@ -1,4 +1,4 @@
-## EXTHMUI
+## exTHmUI
 ![](logo.jpg)
 
 
@@ -20,7 +20,7 @@ export PATH="$HOME/bin:$PATH"
 mkdir -p ~/android/exthm
 cd ~/android/exthm
 repo init -u https://github.com/exthmui/android.git -b exthm-9
-(repo init -u https://github.com/exthmui/android.git -b exthm-9 --depth=1  //更快的下载速度)
+(repo init -u https://github.com/exthmui/android.git -b exthm-9 --depth=1  //仅Clone一层代码，可以使Clone完成的更快)
 ```
 同步源码
 ```
@@ -29,7 +29,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 配置编译环境
 ```
 git clone  https://github.com/akhilnarang/scripts 
-cd scripts && bash setup/android_build_env.sh
+cd scripts && bash setup/android_build_env.sh && cd ../
 ```
 初始化编译
 ```
@@ -37,11 +37,11 @@ cd scripts && bash setup/android_build_env.sh
 ```
 初始化设备
 ```
-lunch lineage_你的设备代号-userdebug
+lunch lineage_[你的设备代号]-userdebug
 ```
 编译
 ```
-brunch 你的设备代号
+brunch [你的设备代号]
 ```
 
 # 给exTHmUI提交更改
