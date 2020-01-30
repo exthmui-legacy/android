@@ -19,6 +19,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
   <project path="packages/apps/Lawnchair" name="android_packages_apps_Lawnchair" remote="exthm" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="exthm" />
+  <project path="packages/apps/APlayer" name="android_packages_apps_APlayer" remote="exthm" />
 
   <!-- Vendor -->
   <project path="vendor/exthm-priv" name="android_vendor_exthm-priv" remote="exthm" />
