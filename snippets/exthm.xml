@@ -5,6 +5,9 @@
            fetch="https://github.com/exthmui"
            revision="refs/heads/exthm-9" />
 
+  <!-- exTHmUI additions-->
+  <project path="external/bash" name="android_external_bash" remote="exthm" />
+
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
   
