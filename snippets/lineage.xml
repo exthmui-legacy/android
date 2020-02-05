@@ -48,7 +48,8 @@
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
-  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
+  <!--Already moved to snippets/exthm.xml -->
+  <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
