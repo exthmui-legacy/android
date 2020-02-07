@@ -5,6 +5,10 @@
            fetch="https://github.com/exthmui"
            revision="refs/heads/exthm-9" />
 
+  <remote  name="exthmui-devices"
+           fetch="https://github.com/exthmui-devices"
+           revision="refs/heads/exthm-9" />
+
   <!-- exTHmUI additions-->
   <project path="external/bash" name="android_external_bash" remote="exthm" />
   <project path="system/extras/su" name="android_system_extras_su" remote="exthm" />
