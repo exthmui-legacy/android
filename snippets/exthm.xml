@@ -21,6 +21,7 @@
   </project>
 
   <project path="android" name="android" remote="exthm" />
+  <project path="exthm/hudson" name="hudson" groups="infra" revision="master" remote="exthm" />
 
   <!-- exTHmUI additions-->
   <project path="external/bash" name="android_external_bash" remote="exthm" />
