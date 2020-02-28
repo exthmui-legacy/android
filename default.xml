@@ -2,6 +2,9 @@
 <manifest>
 
   <remote  name="github"
+           fetch=".." />
+
+  <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org" />
 
@@ -17,7 +20,7 @@
            revision="refs/tags/android-9.0.0_r46" />
 
   <default revision="refs/heads/lineage-16.0"
-           remote="github"
+           remote="lineage"
            sync-c="true"
            sync-j="4" />
 
