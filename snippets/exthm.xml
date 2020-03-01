@@ -56,4 +56,7 @@
 
   <project path="lineage-sdk" name="android_lineage-sdk" remote="exthm" />
 
+  <!-- exTHmUI Theme -->
+  <project path="packages/themes/DefaultTheme" name="android_packages_themes_DefaultTheme" remote="exthm" />
+
 </manifest>
