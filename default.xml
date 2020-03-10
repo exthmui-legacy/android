@@ -680,4 +680,7 @@
 
   <!-- exTHmUI -->
   <include name="snippets/exthm.xml" />
+  <!-- crDroid -->
+  <include name="snippets/crdroid.xml" />
+
 </manifest>
