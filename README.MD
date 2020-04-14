@@ -1,8 +1,10 @@
 ## exTHmUI
 ![](logo.png)
 
+<p>这是一个由国内东方众自行发起制作的基于LineageOS的含有东方Project的类原生Android项目</p>
 
-# 下载源码
+
+# 构建exTHmUI
 
 安装必要工具
 ```
@@ -33,11 +35,11 @@ cd scripts && bash setup/android_build_env.sh && cd ../
 ```
 初始化编译
 ```
-. build/envsetup.sh
+. build/make/envsetup.sh
 ```
 初始化设备
 ```
-lunch lineage_[你的设备代号]-userdebug
+lunch exthm_[你的设备代号]-userdebug
 ```
 编译
 ```
