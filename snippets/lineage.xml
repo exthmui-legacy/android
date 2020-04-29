@@ -8,7 +8,6 @@
   
   <!-- LineageOS additions -->
   <project path="device/lineage/atv" remote="lineage" name="android_device_lineage_atv" />
-  <project path="device/lineage/sepolicy" remote="lineage" name="android_device_lineage_sepolicy" />
   <project path="external/exfat" remote="lineage" name="android_external_exfat" />
   <project path="external/htop" remote="lineage" name="android_external_htop" />
   <project path="external/libncurses" remote="lineage" name="android_external_libncurses" />

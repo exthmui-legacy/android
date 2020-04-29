@@ -30,7 +30,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="exthm" />
 
-  
   <!-- Packages -->
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="exthm" />
   <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="exthm" />
@@ -53,6 +52,7 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="exthm" />
   <project path="vendor/exthm" name="android_vendor_exthm" remote="exthm" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="exthm" />
 
   <project path="lineage-sdk" name="android_lineage-sdk" remote="exthm" />
 
