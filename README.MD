@@ -14,7 +14,7 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 ```
 安装repo
 ```
-mkdir -p ~/android/lineage
+mkdir -p ~/android/exthm
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 export PATH="$HOME/bin:$PATH"
