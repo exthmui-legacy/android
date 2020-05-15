@@ -29,6 +29,7 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="exthm" />
+  <project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="exthm" />
 
   <!-- Packages -->
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="exthm" />
