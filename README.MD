@@ -37,7 +37,7 @@ cd scripts && bash setup/android_build_env.sh && cd ../
 ```
 初始化编译
 ```
-. build/make/envsetup.sh
+. build/envsetup.sh
 ```
 初始化设备
 ```
