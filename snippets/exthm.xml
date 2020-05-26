@@ -25,6 +25,7 @@
 
   <!-- exTHmUI additions-->
   <project path="external/bash" name="android_external_bash" remote="exthm" />
+  <project path="external/libphonenumber" name="android_external_libphonenumber" groups="pdk" remote="exthm" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
