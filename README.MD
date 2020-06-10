@@ -1,5 +1,5 @@
+**中文｜[English](https://github.com/exthmui/android/blob/exthm-10/README_EN.md)**
 # exTHmUI
-
 ## 什么是 exTHmUI ？
 ![](https://raw.githubusercontent.com/exthmui/android/exthm-10/logo.png)
 
