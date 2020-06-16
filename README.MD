@@ -1,7 +1,7 @@
 **中文｜[English](https://github.com/exthmui/android/blob/exthm-10/README_EN.md)**
 # exTHmUI
 ## 什么是 exTHmUI ？
-![](https://raw.githubusercontent.com/exthmui/android/exthm-10/logo.png)
+![exthm logo](https://i.niupic.com/images/2020/06/16/8gWB.png)
 
 这是一个由国内东方众自行发起制作的基于 [LineageOS](https://github.com/LineageOS) 的含有东方 Project 的类原生 Android 项目。
 
