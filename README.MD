@@ -49,13 +49,18 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 - 低于20.04的Ubuntu，还需安装：`libwxgtk3.0-dev`
 - 低于16.04的Ubuntu，还需安装：`libwxgtk2.8-dev`
 
-
-> 安装repo：
+安装repo：
 ```shell
 mkdir -p ~/bin
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 sudo cp ~/bin/repo /bin/repo
 sudo chmod a+x /bin/repo
+```
+
+设置Git用户名及邮箱（替换成自己的）：
+```shell
+git config --global user.email "xxx@xxx.com"
+git config --global user.name "xxx"
 ```
 
 ### 新建工作区
