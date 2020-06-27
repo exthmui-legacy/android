@@ -41,10 +41,21 @@
 </details>
 
 ## 如何编译 exTHmUI ？
-> 该向导以 Debian 系 Linux 为例
+> 该向导以 Debian 系 Linux 发行版 Ubuntu 为例
 ### 安装相关依赖
 ```shell
-sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev repo
+sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
+```
+- 低于20.04的Ubuntu，还需安装：`libwxgtk3.0-dev`
+- 低于16.04的Ubuntu，还需安装：`libwxgtk2.8-dev`
+
+
+> 安装repo：
+```shell
+mkdir -p ~/bin
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+sudo cp ~/bin/repo /bin/repo
+sudo chmod a+x /bin/repo
 ```
 
 ### 新建工作区
