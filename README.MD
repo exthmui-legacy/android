@@ -5,6 +5,8 @@
 
 这是一个由国内东方众自行发起制作的基于 [LineageOS](https://github.com/LineageOS) 的含有东方 Project 的类原生 Android 项目。
 
+>exthm-9分支已停止维护，请使用exthm-10分支进行编译
+
 ## 源码更新日志
 <details markdown='1'><summary>展开/收起更新日志</summary>
 
