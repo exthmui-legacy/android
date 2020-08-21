@@ -478,7 +478,7 @@
   <project path="packages/apps/Car/externallibs" name="platform/packages/apps/Car/externallibs" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/CarrierConfig" remote="lineage" name="android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CarrierConfig" remote="exthm" name="android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" remote="lineage" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" remote="lineage" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" remote="lineage" name="android_packages_apps_Contacts" groups="pdk-fs" />
