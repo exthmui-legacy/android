@@ -2,11 +2,42 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.0.0_r2"
            remote="aosp"
            sync-j="4" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-12.0" />
+
+  <remote  name="arrow-11.0"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-11.0" />
+
+  <remote  name="ArrowOS-Devices"
+           fetch="https://github.com/ArrowOS-Devices"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-12.0" />
+
+  <remote  name="arrow-gitlab"
+           fetch="https://gitlab.com/arrowos-project"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-11.0" />
+
+  <remote  name="arrow-staging"
+           fetch="https://github.com/ArrowOS-next"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-12.0" />
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1091,5 +1122,9 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- ArrowOS changes -->
+  <include name="remove.xml" />
+  <include name="arrow.xml" />
 
 </manifest>
