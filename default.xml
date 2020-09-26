@@ -676,9 +676,6 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Remove unused repos -->
-  <include name="snippets/remove.xml" />
-
   <!-- exTHmUI -->
   <include name="snippets/exthm.xml" />
 
