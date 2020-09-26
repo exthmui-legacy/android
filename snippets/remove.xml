@@ -1,15 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--  Lineage -->
-  <project name="ansible" />
-  <project name="charter" />
-  <project name="cm_crowdin" />
-  <project name="cve_tracker" />
-  <project name="mirror" />
-  <project name="slackbot" />
-  <project name="www" />
-  <project name="lineage_wiki" />
-  <project name="contributors-cloud-generator" />
-  <project name="scripts" />
-
 </manifest>
