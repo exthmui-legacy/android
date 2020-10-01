@@ -9,6 +9,7 @@
 这是一个由国内东方众自行发起制作的基于 [AOSP](https://android.googlesource.com) 的含有东方 Project 的类原生 Android 项目。
 
 >本Android R分支已采用AOSP作为基层System，以后或将不再使用Lineage作为基层System。 
+>还有，此分支处于测试阶段，采用Android 11.0.0 Release 3作为主分支，且目前主线代码还并未升至Android 11，因此本分支将存在很多未预测的编译问题以及运行问题，若出现问题请自行咨询解决。
 
 ## 如何编译 exTHmUI ？
 > 该向导以 Debian 系 Linux 发行版 Ubuntu 为例
