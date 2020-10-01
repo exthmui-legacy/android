@@ -290,7 +290,7 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
+  <!--project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" /-->
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" />
