@@ -1,11 +1,14 @@
 **中文｜[English](https://github.com/exthmui/android/blob/exthm-10/README_EN.md)**
 # exTHmUI
+
+## 欢迎来到咲夜的Android R主场时间！
+
 ## 什么是 exTHmUI ？
 ![exthm logo](https://i.niupic.com/images/2020/06/16/8gWB.png)
 
-这是一个由国内东方众自行发起制作的基于 [LineageOS](https://github.com/LineageOS) 的含有东方 Project 的类原生 Android 项目。
+这是一个由国内东方众自行发起制作的基于 [AOSP](https://android.googlesource.com) 的含有东方 Project 的类原生 Android 项目。
 
->exthm-9分支已停止维护，请使用exthm-10分支进行编译
+>本Android R分支已采用AOSP作为基层System，以后或将不再使用Lineage作为基层System。 
 
 ## 如何编译 exTHmUI ？
 > 该向导以 Debian 系 Linux 发行版 Ubuntu 为例
