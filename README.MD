@@ -8,7 +8,7 @@
 
 这是一个由国内东方众自行发起制作的基于 [LineageOS](https://github.com/LineageOS) 的含有东方 Project 的类原生 Android 项目。
 
-> exthm-9分支已停止维护，请使用exthm-10分支进行编译
+> exthm-9 分支已停止维护，请使用 exthm-10 分支进行编译
 
 ## 如何编译 exTHmUI ？
 
@@ -20,8 +20,8 @@
 sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
 ```
 
-- 低于20.04的Ubuntu，还需安装：`libwxgtk3.0-dev`
-- 低于16.04的Ubuntu，还需安装：`libwxgtk2.8-dev`
+- 低于 20.04 的 Ubuntu，还需安装：`libwxgtk3.0-dev`
+- 低于 16.04 的 Ubuntu，还需安装：`libwxgtk2.8-dev`
 
 ### 安装 repo
 
