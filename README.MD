@@ -50,12 +50,12 @@ cd ~/exTHmUI
 > repo 是一个用来管理多个仓库的工具
 
 ```shell
-repo init -u https://github.com/exthmui/android.git -b exthm-10
+repo init -u https://github.com/exthmui/android.git -b exthm-11
 ```
 您也可以使用如下命令来初始化仓库，这样可以节省磁盘空间
 ```shell
 # depth=1 表示不同步历史提交
-repo init -u https://github.com/exthmui/android.git -b exthm-10 --depth=1
+repo init -u https://github.com/exthmui/android.git -b exthm-11 --depth=1
 ```
 
 ### 同步源码
