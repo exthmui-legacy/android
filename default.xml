@@ -481,7 +481,7 @@
   <project path="packages/apps/CarrierConfig" remote="exthm" name="android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" remote="lineage" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" remote="lineage" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" remote="lineage" name="android_packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/Contacts" remote="exthm" name="android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" remote="exthm" name="android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Email" remote="lineage" name="android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" remote="lineage" name="android_packages_apps_EmergencyInfo" groups="pdk-fs" />
