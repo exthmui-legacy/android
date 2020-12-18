@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-11.0.0_r25"
            remote="aosp"
@@ -13,7 +13,8 @@
    <!-- Build Code:Sakuya -->
    <!-- Hey!Sakuya! -->
    <!-- Let's say hello to Android R Release 25!-->
-   <!-- Revise 2 -->
+   <!-- Revise 2 on 2020/12/18 -->
+   <!-- and i don't know if it can be work :p -->
    <!-- AOSP Part -->
 
   <project path="build/make" name="platform/build" groups="pdk" >
