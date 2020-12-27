@@ -23,6 +23,15 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 - 低于 20.04 的 Ubuntu，还需安装：`libwxgtk3.0-dev`
 - 低于 16.04 的 Ubuntu，还需安装：`libwxgtk2.8-dev`
 
+> Manjaro/Arch编译向导
+
+### 安装依赖
+```
+cd ~/
+git clone https://github.com/akhilnarang/scripts
+cd scripts
+./setup/arch-manjaro.sh
+```
 ### 安装 repo
 
 ```shell
