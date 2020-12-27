@@ -23,7 +23,7 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 - 低于 20.04 的 Ubuntu，还需安装：`libwxgtk3.0-dev`
 - 低于 16.04 的 Ubuntu，还需安装：`libwxgtk2.8-dev`
 
-> Manjaro/Arch编译向导
+## Manjaro/Arch编译向导
 
 ### 安装依赖
 ```
@@ -32,6 +32,7 @@ git clone https://github.com/akhilnarang/scripts
 cd scripts
 ./setup/arch-manjaro.sh
 ```
+
 ### 安装 repo
 
 ```shell
@@ -41,6 +42,18 @@ sudo cp ~/bin/repo /bin/repo
 sudo chmod a+x /bin/repo
 ```
 
+### 修改repo国内源
+
+```
+git config --global url.https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/.insteadof https://android.googlesource.com
+export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
+```
+> 或者是修改.repo/manifests.git/config内的
+```
+url = https://android.googlesource.com/platform/manifes
+改为
+url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/manifest
+```
 ### 设置 Git 用户名及邮箱（替换成自己的）
 
 ```shell
@@ -86,6 +99,8 @@ repo init -u https://github.com/exthmui/android.git -b exthm-10 --depth=1
 # --fail-fast 参数可以处理上次repo时由于网络原因导致的同步失败问题
 #--force-sync 参数忽略本地修改，强制同步git仓库的内容。
 repo sync [-j8 --fail-fast --force-sync]
+参考同步命令
+repo sync -j$(nproc --all) -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### 开始编译
