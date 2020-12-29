@@ -12,9 +12,9 @@
 
 ## 如何编译 exTHmUI ？
 
-> 该向导以 Debian 系 Linux 发行版 Ubuntu 为例
-
 ### 安装相关依赖
+
+#### Debian系（以Ubuntu为例）
 
 ```shell
 sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
@@ -23,17 +23,7 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 - 低于 20.04 的 Ubuntu，还需安装：`libwxgtk3.0-dev`
 - 低于 16.04 的 Ubuntu，还需安装：`libwxgtk2.8-dev`
 
-## Manjaro/Arch编译向导
-
-### 安装依赖
-```
-cd ~/
-git clone https://github.com/akhilnarang/scripts
-cd scripts
-./setup/arch-manjaro.sh
-```
-
-### 安装 repo
+##### 安装 repo
 
 ```shell
 mkdir -p ~/bin
@@ -42,7 +32,15 @@ sudo cp ~/bin/repo /bin/repo
 sudo chmod a+x /bin/repo
 ```
 
-### 修改repo国内源
+#### Arch系（Archlinux/Manjaro等）
+```
+cd ~/
+git clone https://github.com/akhilnarang/scripts
+cd scripts
+./setup/arch-manjaro.sh
+```
+
+### 修改AOSP为国内源（可选）
 
 ```
 git config --global url.https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/.insteadof https://android.googlesource.com
