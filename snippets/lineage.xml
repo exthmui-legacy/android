@@ -28,7 +28,6 @@
   <!--<project path="hardware/lineage/telephony" remote="lineage" name="android_hardware_lineage_telephony" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="lineage" name="android_packages_apps_OpenWeatherMapProvider" />-->
   <project path="packages/apps/Etar" remote="lineage" name="android_packages_apps_Etar" />
-  <project path="packages/apps/ExactCalculator" remote="lineage" name="android_packages_apps_ExactCalculator" />
   <project path="packages/apps/Exchange" remote="lineage" name="android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" remote="lineage" name="android_packages_apps_FMRadio" />
   <project path="packages/apps/FlipFlap" remote="lineage" name="android_packages_apps_FlipFlap" />

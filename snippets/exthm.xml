@@ -38,6 +38,7 @@
   <project path="packages/apps/Dialer" remote="exthm" name="android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/exTHmSettings" name="android_packages_apps_exTHmSettings" remote="exthm" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="exthm" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="exthm" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="exthm" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="exthm" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
