@@ -2,19 +2,19 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://hub.fastgit.org/" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@hub.fastgit.org" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://mirrors.bfsu.edu.cn/git/AOSP"
            review="android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r41" />
 
   <default remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="2" />
 
   <!-- AOSP Projects -->
 

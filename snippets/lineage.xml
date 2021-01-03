@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="lineage"
-           fetch="https://github.com/LineageOS/"
+           fetch="https://mirrors.bfsu.edu.cn/git/lineageOS/"
            revision="refs/heads/lineage-17.1"
            review="review.lineageos.org" />
   

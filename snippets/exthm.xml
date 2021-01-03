@@ -2,11 +2,11 @@
 <manifest>
 
   <remote  name="exthm"
-           fetch="https://github.com/exthmui"
+           fetch="https://hub.fastgit.org/exthmui"
            revision="refs/heads/exthm-10" />
 
   <remote  name="exthmui-devices"
-           fetch="https://github.com/exthmui-devices"
+           fetch="https://hub.fastgit.org/exthmui-devices"
            revision="refs/heads/exthm-10" />
 
   <!-- AOSP Projects -->
