@@ -837,4 +837,7 @@
   <!-- exTHmUI Part -->
   <include name="snippets/exthm.xml" />
 
+  <!-- LineageOS Part -->
+  <include name="snippets/lineage.xml" />
+  
 </manifest>
