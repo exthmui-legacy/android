@@ -839,5 +839,8 @@
 
   <!-- LineageOS Part -->
   <include name="snippets/lineage.xml" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
   
 </manifest>
