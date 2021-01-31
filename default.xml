@@ -417,6 +417,8 @@
   <project path="hardware/knowles/athletico/sound_trigger_hal" remote="lineage" name="android_hardware_knowles_athletico_sound_trigger_hal" groups="coral" />
   <project path="hardware/libhardware" remote="lineage" name="android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" remote="lineage" name="android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/mediatek" remote="lineage" name="android_hardware_mediatek" />
+  <project path="device/mediatek/sepolicy" remote="lineage" name="android_device_mediatek_sepolicy" />
   <project path="hardware/nxp/nfc" remote="lineage" name="android_hardware_nxp_nfc" groups="pdk" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/qcom/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
