@@ -65,18 +65,6 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
-  <remove-project name="platform/external/boringssl" />
-  <remove-project name="platform/external/cldr" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/guice" />
-  <remove-project name="platform/external/icu" />
-  <remove-project name="platform/external/libcxx" />
-  <remove-project name="platform/external/perfetto" />
-  <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/tinyalsa" />
-  <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/toybox" />
 
   <!-- Framework repos >
   <remove-project name="platform/frameworks/av" />
@@ -98,18 +86,6 @@
   <remove-project name="platform/platform_testing" /-->
 
   <!-- Hardware repos -->
-  <remove-project name="platform/hardware/broadcom/libbt" />
-  <remove-project name="platform/hardware/google/pixel" />
-  <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
-  <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
@@ -118,11 +94,6 @@
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/sdm845/display" />
-  <remove-project name="platform/hardware/qcom/sdm845/media" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/ril" />
 
   <!-- Packages repos -->
   <!--remove-project name="platform/packages/apps/Bluetooth" />
@@ -159,13 +130,6 @@
   <remove-project name="platform/packages/apps/Dialer" />
 
   <!-- Prebuilts -->
-  <remove-project name="platform/prebuilts/build-tools" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- System repos >
   <remove-project name="platform/system/bt" />
