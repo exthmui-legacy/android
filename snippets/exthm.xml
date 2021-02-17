@@ -19,8 +19,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-
   <project path="android" name="android" remote="exthm" />
+
+  <!-- exTHmUI additions-->
+  <project path="external/bash" name="android_external_bash" remote="exthm" />
+  <project path="external/asus_stitchimage" name="android_external_asus_stitchimage" groups="pdk" remote="exthm" />
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
@@ -32,6 +35,7 @@
 <!-- System -->
   <project path="system/core" name="android_system_core" remote="exthm" />
   <project path="vendor/exthm" name="android_vendor_exthm" remote="exthm" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="exthm" />
   
 <!-- exTHmUI Theme -->
   <project path="packages/themes/DefaultTheme" name="android_packages_themes_DefaultTheme" remote="exthm" />
