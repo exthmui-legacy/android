@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <!--project path="android" name="LineageOS/android" /-->
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
@@ -23,11 +23,11 @@
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
-  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+  <!--project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" /-->
+  <!--project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" /-->
   <!--<project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />-->
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
+  <!--project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" /-->
   <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
@@ -48,7 +48,7 @@
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <!--project path="vendor/lineage" name="LineageOS/android_vendor_lineage" /-->
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
