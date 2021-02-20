@@ -19,6 +19,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="exthm">
+        <linkfile src="root.bp" dest="Android.bp" />
+	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="android" name="android" remote="exthm" />
 
   <!-- exTHmUI additions-->
@@ -39,5 +43,13 @@
   
 <!-- exTHmUI Theme -->
   <project path="packages/themes/DefaultTheme" name="android_packages_themes_DefaultTheme" remote="exthm" />
+
+  <!--睁开双眼，熟悉的彩色穹顶上，晶莹的吊灯闪烁着。-->
+  <!--拨开冰蓝色的蔷薇，轻轻起身。-->
+  <!--淡金色的光，映照着斑斓的水晶窗，被解构成无数微小的光柱，绮丽的色彩，洒落地面。-->
+  <!--“姐姐，恋恋可以和你永远在一起了哦。”她自言自语着…… -->
+  <!-- 摘自『心绮·地灵』-->
+  <!-- from https://www.notion.so/07ab6bcc14ec47ee9bb313548776873b -->
+
 
 </manifest>

@@ -26,10 +26,6 @@
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
@@ -775,4 +771,11 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="snippets/exthm.xml" />
+  
+  <!--她看见了繁星闪烁，她看见斑斓的天空中，大熊座缠绕着。-->
+  <!--旷野的风呼啸而过，二人互相倚靠，仰望着，归于沉默。-->
+  <!--  摘自 《秘封の星月》-->
+  <!-- from https://www.notion.so/651ea84d044c47b9af4b3e4e6939b98a -->
+  <!-- Revision 2021-02-20 -->
+  
 </manifest>
