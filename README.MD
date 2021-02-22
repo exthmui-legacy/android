@@ -43,7 +43,7 @@ cd scripts
 ### 修改AOSP为国内源（可选）
 
 ```
-git config --global url.https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/.insteadof https://android.googlesource.com
+git config --global url.https://mirrors.bfsu.edu.cn/git/AOSP/.insteadof https://android.googlesource.com
 
 repo的运行过程中会尝试访问官方的git源更新自己，如果想使用tuna的镜像源进行更新，可以将如下内容复制到你的~/.bashrc里或者是直接运行
 export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
@@ -52,7 +52,7 @@ export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
 ```
 url = https://android.googlesource.com/platform/manifes
 改为
-url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/manifest
+url = https://mirrors.bfsu.edu.cn/git/AOSP/platform/manifest
 ```
 ### 设置 Git 用户名及邮箱（替换成自己的）
 
