@@ -29,6 +29,9 @@
   <project path="external/bash" name="android_external_bash" remote="exthm" />
   <!--project path="external/asus_stitchimage" name="android_external_asus_stitchimage" groups="pdk" remote="exthm" /-->
 
+  <!-- Frameowrks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
+
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
   <project path="packages/apps/APlayer" name="android_packages_apps_APlayer" remote="exthm" />
