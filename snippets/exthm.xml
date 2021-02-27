@@ -39,6 +39,7 @@
   <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="exthm" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="exthm" />
   <project path="packages/apps/ViaBrowser" name="android_packages_apps_ViaBrowser" remote="exthm" />
+  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="exthm" />
 
 <!-- Modules -->
 <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="exthm" />
