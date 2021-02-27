@@ -33,6 +33,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
 
   <!-- Packages -->
+  <project path="packages/apps/exTHmSettings" name="android_packages_apps_exTHmSettings" remote="exthm" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
   <project path="packages/apps/APlayer" name="android_packages_apps_APlayer" remote="exthm" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="exthm" />
