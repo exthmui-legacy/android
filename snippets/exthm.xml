@@ -26,7 +26,7 @@
   <project path="android" name="android" remote="exthm" />
 
   <!-- exTHmUI additions-->
-  <project path="external/bash" name="android_external_bash" remote="exthm" />
+  <!--project path="external/bash" name="android_external_bash" remote="exthm" /-->
   <!--project path="external/asus_stitchimage" name="android_external_asus_stitchimage" groups="pdk" remote="exthm" /-->
 
   <!-- Frameworks -->
