@@ -40,19 +40,12 @@ cd scripts
 ./setup/arch-manjaro.sh
 ```
 
-### 修改AOSP为国内源（可选）
+### 修改AOSP和Github为镜像站（可选）
 
 ```
 git config --global url.https://mirrors.bfsu.edu.cn/git/AOSP/.insteadof https://android.googlesource.com
+git config --global url.https://github.com.cnpmjs.org/.insteadof https://github.com
 
-repo的运行过程中会尝试访问官方的git源更新自己，如果想使用tuna的镜像源进行更新，可以将如下内容复制到你的~/.bashrc里或者是直接运行
-export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
-```
-> 或者是修改.repo/manifests.git/config内的
-```
-url = https://android.googlesource.com/platform/manifes
-改为
-url = https://mirrors.bfsu.edu.cn/git/AOSP/platform/manifest
 ```
 ### 设置 Git 用户名及邮箱（替换成自己的）
 
@@ -82,11 +75,12 @@ cd ~/exTHmUI
 repo init -u https://github.com/exthmui/android.git -b exthm-10
 ```
 
-您也可以使用如下命令来初始化仓库，这样可以节省磁盘空间
+您也可以使用如下命令来初始化仓库，这样可以节省磁盘空间并使用国内源
 
 ```shell
 # depth=1 表示不同步历史提交
-repo init -u https://github.com/exthmui/android.git -b exthm-10 --depth=1
+# repo-url 将repo地址设为国内镜像站
+repo init -u https://github.com/exthmui/android.git -b exthm-10 --depth=1 --repo-url=https://mirrors.bfsu.edu.cn/git/git-repo
 ```
 
 ### 同步源码
