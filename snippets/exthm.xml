@@ -2,14 +2,15 @@
 <manifest>
 
   <remote  name="exthm"
-           fetch="https://github.com/exthmui"
+           fetch="https://github.com/exTHmUI"
+           review="review.exthmui.cn"
            revision="refs/heads/exthm-11" />
 
   <remote  name="exthmui-devices"
-           fetch="https://github.com/exthmui-devices"
+           fetch="https://github.com/exTHmUI-Devices"
+           review="review.exthmui.cn"
            revision="refs/heads/exthm-11" />
 
-  <!-- AOSP Projects -->
   <project path="build/make" name="android_build" groups="pdk" remote="exthm" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -24,10 +25,6 @@
 	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="android" name="android" remote="exthm" />
-
-  <!-- exTHmUI additions-->
-  <!--project path="external/bash" name="android_external_bash" remote="exthm" /-->
-  <!--project path="external/asus_stitchimage" name="android_external_asus_stitchimage" groups="pdk" remote="exthm" /-->
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
@@ -44,23 +41,25 @@
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="exthm" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="exthm"/>
 
-<!-- Modules -->
-<project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="exthm" />
+  <!-- Modules -->
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="exthm" />
 
-<!-- System -->
+  <!-- System -->
   <project path="system/core" name="android_system_core" remote="exthm" />
   <project path="vendor/exthm" name="android_vendor_exthm" remote="exthm" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="exthm" />
   
-<!-- exTHmUI Theme -->
+  <!-- exTHmUI Theme -->
   <project path="packages/themes/DefaultTheme" name="android_packages_themes_DefaultTheme" remote="exthm" />
 
-  <!--睁开双眼，熟悉的彩色穹顶上，晶莹的吊灯闪烁着。-->
-  <!--拨开冰蓝色的蔷薇，轻轻起身。-->
-  <!--淡金色的光，映照着斑斓的水晶窗，被解构成无数微小的光柱，绮丽的色彩，洒落地面。-->
-  <!--“姐姐，恋恋可以和你永远在一起了哦。”她自言自语着…… -->
-  <!-- 摘自『心绮·地灵』-->
-  <!-- from https://www.notion.so/07ab6bcc14ec47ee9bb313548776873b -->
+  <!-- 
+      睁开双眼，熟悉的彩色穹顶上，晶莹的吊灯闪烁着。
+      拨开冰蓝色的蔷薇，轻轻起身
+      淡金色的光，映照着斑斓的水晶窗，被解构成无数微小的光柱，绮丽的色彩，洒落地面。
+      “姐姐，恋恋可以和你永远在一起了哦。”她自言自语着……
+      摘自『心绮·地灵』
+      from https://www.notion.so/07ab6bcc14ec47ee9bb313548776873b
+  -->
 
 
 </manifest>
