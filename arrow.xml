@@ -48,6 +48,7 @@
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
 
