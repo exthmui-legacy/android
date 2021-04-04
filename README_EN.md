@@ -91,16 +91,17 @@ mka bacon
 ```
 
 # Submit commit
-We welcome developers to submit commits in Gerrit, you can use the following command to submit commits:
-
+> We welcome developers to submit commits in Gerrit, you can use the following command to submit commits:
+```
      cd <project>
      <make edits>
      git add -A
      git commit -m "commit information"
      git push ssh://<username>@review.exthmui.cn:29418/<project> HEAD:refs/for/exthm-11
+```
 
-Commit can be submitted with one submission. Use the following command to compress multiple commits: `git rebase -i HEAD~<number of commits>`
+> Commit can be submitted with one submission. Use the following command to compress multiple commits: `git rebase -i HEAD~<number of commits>`
 
-If you want to add other content, just repeat the steps (don't submit a new commit), but use `git commit --amend` instead of `git commit -m`. Gerrit will recognize it as a new commit set.
+> If you want to add other content, just repeat the steps (don't submit a new commit), but use `git commit --amend` instead of `git commit -m`. Gerrit will recognize it as a new commit set.
 
-To check the status of you and other commits, please visit [exTHmUI](https://review.exthmui.cn) code review
+> To check the status of you and other commits, please visit [exTHmUI](https://review.exthmui.cn) code review.

@@ -123,17 +123,18 @@ breakfast [您的设备代号]
 mka bacon
 ```
 
-# 提交commit
-我们欢迎开发者在Gerrit提交commit，你可以使用以下命令提交commit：
-
+### 提交commit
+> 我们欢迎开发者在Gerrit提交commit，你可以使用以下命令提交commit：
+```
     cd <project>
     <make edits>
     git add -A
     git commit -m "commit信息"
     git push ssh://<username>@review.exthmui.cn:29418/<project> HEAD:refs/for/exthm-11
+```
 
-一次提交即可提交commit。 使用以下命令压缩多个提交：`git rebase -i HEAD〜<提交数量>`
+> 一次提交即可提交commit。使用以下命令压缩多个提交：`git rebase -i HEAD~<提交数量>`
 
-如果您要添加其他内容，只需重复步骤（不要提交新的commit），而是使用`git commit --amend`代替`git commit -m`。 Gerrit会将其识别为新的commit集。
+> 如果您要添加其他内容，只需重复步骤（不要提交新的commit），而是使用`git commit --amend`代替`git commit -m`。Gerrit会将其识别为新的commit集。
 
-要查看您和其他commit的状态，请访问[exTHmUI](https://review.exthmui.cn)代码审查
+> 要查看您和其他commit的状态，请访问[exTHmUI](https://review.exthmui.cn)代码审查。
