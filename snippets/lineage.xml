@@ -3,7 +3,6 @@
 
   <!-- LineageOS additions -->
   <project path="device/lineage/atv" remote="lineage" name="android_device_lineage_atv" />
-  <project path="device/lineage/sepolicy" remote="lineage" name="android_device_lineage_sepolicy" />
   <project path="external/bash" remote="lineage" name="android_external_bash" />
   <project path="external/exfatprogs" remote="lineage" name="android_external_exfatprogs" />
   <project path="external/htop" remote="lineage" name="android_external_htop" />

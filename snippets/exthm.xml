@@ -26,6 +26,9 @@
   </project>
   <project path="android" name="android" remote="exthm" />
 
+  <!-- Sepolicy -->
+  <project path="device/lineage/sepolicy" remote="exthm" name="android_device_lineage_sepolicy" />
+
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
   <project path="frameworks/av" name="android_frameworks_av" remote="exthm" />
