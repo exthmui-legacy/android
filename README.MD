@@ -132,6 +132,26 @@ mka bacon
     git commit -m "commit信息"
     git push ssh://<username>@review.exthmui.cn:29418/<project> HEAD:refs/for/exthm-11
 ```
+# 如何使用SSH提交到Gerrit
+> [Generate local key](https://blog.csdn.net/zhoulw_25/article/details/83787262)
+```
+     ssh-keygen -t rsa -C <youremail>
+
+```
+> 复制密匙
+```
+     cat ~/.ssh/id_rsa.pub
+
+```
+>登入Gerrit 配置ssh key
+![Gerrit ssh](https://img-blog.csdnimg.cn/20181106150940882.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pob3Vsd18yNQ==,size_16,color_FFFFFF,t_70)
+```
+     1.转到SSH-key面板并将输出内容粘贴到SSH keys中。
+     2.点击添加按钮
+     3.在邮件中收到gerrit的答复.
+     好耶!!
+
+```
 
 > 一次提交即可提交commit。使用以下命令压缩多个提交：`git rebase -i HEAD~<提交数量>`
 

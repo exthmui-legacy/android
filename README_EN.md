@@ -104,4 +104,27 @@ mka bacon
 
 > If you want to add other content, just repeat the steps (don't submit a new commit), but use `git commit --amend` instead of `git commit -m`. Gerrit will recognize it as a new commit set.
 
+# How to submit to Gerrit Using SSH
+> [Generate local key](https://docs.github.com/articles/generating-an-ssh-key/)
+```
+     ssh-keygen -t rsa -C <youremail>
+
+```
+> Get the key & Copy the printed output
+```
+     cat ~/.ssh/id_rsa.pub
+
+```
+>Upload the key to gerrit
+![Gerrit ssh](https://img-blog.csdnimg.cn/20181106150940882.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pob3Vsd18yNQ==,size_16,color_FFFFFF,t_70)
+```
+     1.Go to the SSH key panel & paste the output content into add SSH public key.
+     2.Click Add Button.
+     3.Receive the reply from gerrit in your mail.
+     Success!!
+
+```
+
+
+
 > To check the status of you and other commits, please visit [exTHmUI](https://review.exthmui.cn) code review.
