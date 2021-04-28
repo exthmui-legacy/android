@@ -541,7 +541,7 @@
   <project path="packages/apps/CertInstaller" remote="lineage" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" remote="lineage" name="android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" remote="lineage" name="android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" remote="lineage" name="android_packages_apps_Dialer" groups="pdk-fs" />
+  <!--project path="packages/apps/Dialer" remote="lineage" name="android_packages_apps_Dialer" groups="pdk-fs" /-->
   <project path="packages/apps/DocumentsUI" remote="lineage" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" remote="lineage" name="android_packages_apps_EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" remote="lineage" name="android_packages_apps_Gallery2" groups="pdk-fs" />
