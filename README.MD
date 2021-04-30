@@ -31,7 +31,7 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 ```shell
 mkdir -p ~/bin
 curl https://storage.googleapis.com/git-repo-downloads/repo > $HOME/bin/repo
-sudo chmod +x $HOME/bin/repo
+chmod +x $HOME/bin/repo
 echo "if [[ \$PATH != *"\$HOME/bin/repo"* ]]; then PATH=\$HOME/bin:\$PATH ; fi" >> .bashrc
 ```
 
