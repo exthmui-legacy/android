@@ -24,10 +24,10 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 ### Install repo
 
 ```shell
-mkdir -p ~/bin
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-sudo cp ~/bin/repo /bin/repo
-sudo chmod a+x /bin/repo
+mkdir -p $HOME/bin
+curl https://storage.googleapis.com/git-repo-downloads/repo > $HOME/bin/repo
+chmod +x $HOME/bin/repo
+echo "if [[ \$PATH != *"\$HOME/bin/repo"* ]]; then PATH=\$HOME/bin:\$PATH ; fi" >> .bashrc
 ```
 
 ### Set up GitHub username and email (replace it to yours)
