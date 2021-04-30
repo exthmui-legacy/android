@@ -29,10 +29,10 @@ sudo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-
 ##### 安装 repo
 
 ```shell
-mkdir -p ~/bin
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-sudo cp ~/bin/repo /bin/repo
-sudo chmod a+x /bin/repo
+mkdir -p $HOME/bin
+curl https://storage.googleapis.com/git-repo-downloads/repo > $HOME/bin/repo
+chmod +x $HOME/bin/repo
+echo "if [[ \$PATH != *"\$HOME/bin"* ]]; then PATH=\$HOME/bin:\$PATH ; fi" >> .bashrc
 ```
 
 #### Arch系（Archlinux/Manjaro等）
