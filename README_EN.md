@@ -1,3 +1,5 @@
+**[中文](https://github.com/exthmui/android/blob/exthm-11/README.MD) | English**
+
 # exTHmUI
 
 ## What’s exTHmUI?
