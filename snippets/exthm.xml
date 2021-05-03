@@ -44,6 +44,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="exthm" />
   <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="exthm" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="exthm" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="exthm" />
   <project path="packages/apps/Dialer" remote="exthm" name="android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/ViaBrowser" name="android_packages_apps_ViaBrowser" remote="exthm" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="exthm" />
