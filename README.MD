@@ -133,9 +133,12 @@ mka bacon
     git push ssh://<username>@review.exthmui.cn:29418/<project> HEAD:refs/for/exthm-11
 ```
 # 如何使用SSH提交到Gerrit
-> [Generate local key](https://blog.csdn.net/zhoulw_25/article/details/83787262)
+> 首先生成SSH密钥
 ```
-     ssh-keygen -t rsa -C <youremail>
+     git config --global user.email "xxx@xxx.com"
+     git config --global user.name "xxx"
+     ssh-keygen -t rsa -C xxx@xxx.com
+     然后后面的提示一路回车即可
 
 ```
 > 复制密匙
@@ -143,12 +146,18 @@ mka bacon
      cat ~/.ssh/id_rsa.pub
 
 ```
->登入Gerrit 配置ssh key
+
+>配置ssh key
 ![Gerrit ssh](https://img-blog.csdnimg.cn/20181106150940882.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pob3Vsd18yNQ==,size_16,color_FFFFFF,t_70)
 ```
-     1.转到SSH-key面板并将输出内容粘贴到SSH keys中。
-     2.点击添加按钮
-     3.在邮件中收到gerrit的答复.
+     首先打开exTHmUI代码审查(下面有) -> 点击右上角的Sign in -> 再点击Github OAuth2那一行使用git登录 
+     然后点击右上角的设置 (齿轮图标)
+
+     1.找到Email Addresses部分 添加您的邮箱
+     2.在您的邮件收件箱找到Gerrit的验证邮件, 点击它通过验证
+     3.转到SSH keys部分将密钥输出内容粘贴到SSH keys中
+     4.点击添加按钮
+     5.在邮件中收到Gerrit的答复.
      好耶!!
 
 ```
