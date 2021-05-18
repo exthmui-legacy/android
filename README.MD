@@ -133,25 +133,68 @@ mka bacon
     git push ssh://<username>@review.exthmui.cn:29418/<project> HEAD:refs/for/exthm-11
 ```
 # 如何使用SSH提交到Gerrit
-> [Generate local key](https://blog.csdn.net/zhoulw_25/article/details/83787262)
+> 首先生成SSH密钥
 ```
-     ssh-keygen -t rsa -C <youremail>
+     git config --global user.email "xxx@xxx.com"
+     git config --global user.name "xxx"
+     ssh-keygen -t rsa
+     然后后面的提示一路回车即可
 
 ```
-> 复制密匙
+> 复制密钥
 ```
      cat ~/.ssh/id_rsa.pub
 
 ```
->登入Gerrit 配置ssh key
+
+>配置ssh key
 ![Gerrit ssh](https://img-blog.csdnimg.cn/20181106150940882.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pob3Vsd18yNQ==,size_16,color_FFFFFF,t_70)
 ```
-     1.转到SSH-key面板并将输出内容粘贴到SSH keys中。
-     2.点击添加按钮
-     3.在邮件中收到gerrit的答复.
+     首先打开exTHmUI代码审查(下面有) -> 点击右上角的Sign in -> 再点击Github OAuth2那一行使用git登录 
+     然后点击右上角的设置 (齿轮图标)
+
+     1.找到Email Addresses部分 添加您的邮箱
+
+     2.在您的邮件收件箱找到Gerrit的验证邮件, 点击它通过验证
+
+     3.转到SSH Keys部分将密钥输出内容粘贴到SSH Keys中的New SSH Keys输入框中
+
+     4.点击添加按钮 (即 ADD NEW SSH KEY), 然后点击SAVE CHANGES
+
+     5.稍后您的邮件中收到Gerrit的答复.
+
      好耶!!
 
 ```
+
+
+>推送提交至审核服务器
+
+所需文件: [commit-msg](https://review.exthmui.cn/tools/hooks/commit-msg)
+
+```
+     1. 首先进入到带有您要推送更改提交的源码目录
+
+     2. 添加远程服务器 输入git remote add gerrit <审核服务器地址>/源码目录的仓库名称
+         < 例如 git remote add gerrit https://review.exthmui.cn/android >
+
+     3. 设置Change-Id功能
+         3-1: 下载commit-msg文件 并将它移动至 <源码目录/.git/hooks> 下
+         3-2: 输入 chmod a+x .git/hooks/commit-msg
+     
+     4. 将您要修改好的文件添加到暂存区, 并写好提交描述
+         * 如果先前修改好的提交可以使用 git commit --amend 重新提交
+
+     5. 然后将提交推送到审核服务器
+         即 git push ssh://<用户名>@<代码审查服务器地址>:<端口>/<仓库名称> HEAD:refs/for/<分支>
+         * 例如 < git push ssh://builder@review.exthmui.cn:29418/android HEAD:refs/for/exthm-11 >
+
+     6. 出现 SUCCESS 即推送完成, 待审查人与审稿人测试无误后即可合并
+
+     好耶!!
+
+```
+
 
 > 一次提交即可提交commit。使用以下命令压缩多个提交：`git rebase -i HEAD~<提交数量>`
 
