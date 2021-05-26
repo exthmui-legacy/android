@@ -33,6 +33,10 @@
   <!-- Sepolicy -->
   <project path="device/lineage/sepolicy" remote="exthm" name="android_device_lineage_sepolicy" />
 
+  <!-- External -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="exthm" />
+  <project path="external/libfuse" name="android_external_libfuse" remote="exthm" />
+
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
   <project path="frameworks/av" name="android_frameworks_av" remote="exthm" />
@@ -68,9 +72,6 @@
 
   <!-- Gaspps -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="exthm-gitlab" />
-
-  <!-- External Repositories -->
-  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="exthm" />
 
   <!-- 
       睁开双眼，熟悉的彩色穹顶上，晶莹的吊灯闪烁着。
