@@ -24,3 +24,7 @@ repo sync
 ## 向 exTHmUI 贡献提交
 
 我们欢迎开发者通过 [Gerrit](https://www.gerritcodereview.com/) 参与到 exTHmUI 的开发中，请访问 [exTHmUI Code Review](https://review.exthmui.cn/)
+
+## 查阅 wiki
+
+如果对详细的系统介绍和编译有兴趣，欢迎访问我们的 [Wiki](https://wiki.exthmui.cn/)
