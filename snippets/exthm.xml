@@ -58,6 +58,7 @@
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="exthm" />
   <project path="packages/apps/ThemeManager" remote="exthm" name="android_packages_apps_ThemeManager" />
   <project path="packages/apps/YellowPage" remote="exthm" name="android_packages_apps_YellowPage" />
+  <project path="packages/apps/SoftAPManager" remote="exthm" name="android_packages_apps_SoftAPManager" />
 
   <!-- Overlays -->
   <project path="packages/overlays/CaptivePortalConfig" remote="exthm" name="android_packages_overlays_CaptivePortalConfig" />
