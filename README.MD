@@ -47,3 +47,5 @@ mka bacon
 ## 查阅 wiki
 
 如果对详细的系统介绍和编译有兴趣，欢迎访问我们的 [Wiki](https://wiki.exthmui.cn/)
+
+如果想要查看机型适配及ROM下载，欢迎访问我们的[ROM下载](https://download.exthmui.cn/)
