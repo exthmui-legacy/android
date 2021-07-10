@@ -75,6 +75,9 @@
   <!-- Gapps -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="exthm-gitlab" />
 
+  <!-- Wiki -->
+  <project path="wiki" name="wiki" remote="exthm" />
+
   <!-- 
       睁开双眼，熟悉的彩色穹顶上，晶莹的吊灯闪烁着。
       拨开冰蓝色的蔷薇，轻轻起身
