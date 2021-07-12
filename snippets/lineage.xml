@@ -142,6 +142,7 @@
   <project path="vendor/nxp/opensource/sn100x/halimpl" remote="lineage" name="android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" remote="lineage" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-sn100x" />
   <project path="vendor/qcom/opensource/audio" remote="lineage" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="lineage" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="lineage" name="android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom"/>
