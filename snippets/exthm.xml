@@ -78,6 +78,9 @@
   <!-- Wiki -->
   <project path="wiki" name="wiki" remote="exthm" />
 
+  <!-- Updater -->
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="exthm" />
+
   <!-- 
       睁开双眼，熟悉的彩色穹顶上，晶莹的吊灯闪烁着。
       拨开冰蓝色的蔷薇，轻轻起身
