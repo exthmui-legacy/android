@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-11.0.0_r39" />
+           revision="refs/tags/android-11.0.0_r40" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
@@ -50,6 +50,8 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/atv" remote="lineage" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" remote="aosp" />
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" remote="aosp" />
+  <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" remote="aosp" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
@@ -224,7 +226,6 @@
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" remote="aosp" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" remote="aosp" />
-  <!--project path="external/libfuse" name="platform/external/libfuse" groups="pdk" remote="aosp" /-->
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" remote="aosp" />
@@ -402,7 +403,7 @@
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" remote="aosp" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="aosp" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" remote="aosp" />
   <project path="external/XNNPACK" name="platform/external/XNNPACK" groups="pdk" remote="aosp" />
@@ -412,8 +413,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <!--project path="frameworks/av" remote="lineage" name="android_frameworks_av" groups="pdk" / -->
-  <!--project path="frameworks/base" remote="lineage" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -512,6 +511,7 @@
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" remote="aosp" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="aosp" />
+  <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
   <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
@@ -531,23 +531,19 @@
   <project path="packages/apps/Car/Notification" name="platform/packages/apps/Car/Notification" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/RotaryController" name="platform/packages/apps/Car/RotaryController" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/Settings" name="platform/packages/apps/Car/Settings" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" remote="aosp" />
-  <!--project path="packages/apps/CarrierConfig" remote="lineage" name="android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="packages/apps/CellBroadcastReceiver" remote="lineage" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" remote="lineage" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <!--project path="packages/apps/Contacts" remote="lineage" name="android_packages_apps_Contacts" groups="pdk-fs" /-->
   <project path="packages/apps/DeskClock" remote="lineage" name="android_packages_apps_DeskClock" groups="pdk-fs" />
-  <!--project path="packages/apps/Dialer" remote="lineage" name="android_packages_apps_Dialer" groups="pdk-fs" /-->
   <project path="packages/apps/DocumentsUI" remote="lineage" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" remote="lineage" name="android_packages_apps_EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" remote="lineage" name="android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" remote="lineage" name="android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" remote="lineage" name="android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" remote="lineage" name="android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
-  <!--project path="packages/apps/Messaging" remote="lineage" name="android_packages_apps_Messaging" groups="pdk-fs" /-->
   <project path="packages/apps/Nfc" remote="lineage" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OnDeviceAppPrediction" name="platform/packages/apps/OnDeviceAppPrediction" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
@@ -558,7 +554,6 @@
   <project path="packages/apps/SafetyRegulatoryInfo" remote="lineage" name="android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" remote="lineage" name="android_packages_apps_SecureElement" groups="apps_se,pdk-fs" />
-  <!--project path="packages/apps/Settings" remote="lineage" name="android_packages_apps_Settings" groups="pdk-fs" /-->
   <project path="packages/apps/SettingsIntelligence" remote="lineage" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/Stk" remote="lineage" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" remote="lineage" name="android_packages_apps_StorageManager" groups="pdk-fs" />
@@ -600,9 +595,9 @@
   <project path="packages/screensavers/Basic" remote="lineage" name="android_packages_screensavers_Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" remote="lineage" name="android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/services/BuiltInPrintService" remote="lineage" name="android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/services/Mms" remote="lineage" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="packages/services/Car" name="android_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="lineage"/>
+  <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lineage"/>
   <project path="packages/services/Mtp" name="platform/packages/services/Mtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Telecomm" remote="lineage" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" remote="lineage" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
@@ -673,7 +668,6 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
-  <!--project path="system/core" remote="lineage" name="android_system_core" groups="pdk" /-->
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
@@ -705,8 +699,8 @@
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" remote="aosp" />
   <project path="system/timezone" remote="lineage" name="android_system_timezone" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" remote="aosp" />
-  <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" remote="aosp" />
-  <project path="system/tools/mkbootimg" remote="lineage" name="android_system_tools_mkbootimg" groups="pdk" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="lineage"/>
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage"/>
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" remote="aosp" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/update_engine" remote="lineage" name="android_system_update_engine" groups="pdk" />

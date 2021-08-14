@@ -3,6 +3,7 @@
 
   <!-- LineageOS additions -->
   <project path="device/lineage/atv" remote="lineage" name="android_device_lineage_atv" />
+  <project path="device/lineage/car" remote="lineage" name="android_device_lineage_car" />
   <project path="external/bash" remote="lineage" name="android_external_bash" />
   <project path="external/exfatprogs" remote="lineage" name="android_external_exfatprogs" />
   <project path="external/htop" remote="lineage" name="android_external_htop" />
@@ -19,33 +20,21 @@
   <project path="hardware/broadcom/nfc" remote="lineage" name="android_hardware_broadcom_nfc" />
   <project path="hardware/lineage/interfaces" remote="lineage" name="android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" remote="lineage" name="android_hardware_lineage_livedisplay" />
-  <!--project path="lineage-sdk" remote="lineage" name="android_lineage-sdk" /-->
   <project path="packages/apps/AudioFX" remote="lineage" name="android_packages_apps_AudioFX" />
-  <!--project path="packages/apps/Backgrounds" remote="lineage" name="android_packages_apps_Backgrounds" /-->
-  <!--project path="packages/apps/Eleven" remote="lineage" name="android_packages_apps_Eleven" /-->
-  <!--<project path="packages/apps/Email" remote="lineage" name="android_packages_apps_Email" />-->
   <project path="packages/apps/Etar" remote="lineage" name="android_packages_apps_Etar" />
-  <!--project path="packages/apps/ExactCalculator" remote="lineage" name="android_packages_apps_ExactCalculator" /-->
-  <!--<project path="packages/apps/Exchange" remote="lineage" name="android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" remote="lineage" name="android_packages_apps_FMRadio" />
   <project path="packages/apps/FlipFlap" remote="lineage" name="android_packages_apps_FlipFlap" />
-  <!--project path="packages/apps/Jelly" remote="lineage" name="android_packages_apps_Jelly" /-->
   <project path="packages/apps/LineageCustomizer" remote="lineage" name="android_packages_apps_LineageCustomizer" />
-  <!--project path="packages/apps/LineageParts" remote="lineage" name="android_packages_apps_LineageParts" /-->
   <project path="packages/apps/Profiles" remote="lineage" name="android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" remote="lineage" name="android_packages_apps_Recorder" />
   <project path="packages/apps/Seedvault" remote="lineage" name="android_packages_apps_Seedvault" />
-  <!--<project path="packages/apps/SetupWizard" remote="lineage" name="android_packages_apps_SetupWizard" /> /-->
   <project path="packages/apps/SimpleDeviceConfig" remote="lineage" name="android_packages_apps_SimpleDeviceConfig" />
   <project path="packages/apps/Snap" remote="lineage" name="android_packages_apps_Snap" />
-  <!--<project path="packages/apps/Trebuchet" remote="lineage" name="android_packages_apps_Trebuchet" /> /-->
-  <!--<project path="packages/apps/UnifiedEmail" remote="lineage" name="android_packages_apps_UnifiedEmail" />-->
   <project path="packages/overlays/Lineage" remote="lineage" name="android_packages_overlays_Lineage" />
   <project path="packages/resources/devicesettings" remote="lineage" name="android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" remote="lineage" name="android_prebuilts_extract-tools" clone-depth="1" />
   <project path="prebuilts/tools-lineage" remote="lineage" name="android_prebuilts_tools-lineage" clone-depth="1" />
   <project path="tools/extract-utils" remote="lineage" name="android_tools_extract-utils" />
-  <!--project path="vendor/lineage" remote="lineage" name="android_vendor_lineage" /-->
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
