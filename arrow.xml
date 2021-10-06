@@ -17,11 +17,18 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- external repos -->
+  <project path="external/selinux" name="android_external_selinux" remote="arrow" />
+
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" />
 
   <!-- prebuilt repos -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="arrow" />
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
+
+  <!-- system repos -->
+  <project path="system/core" name="android_system_core" remote="arrow" />
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />

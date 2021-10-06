@@ -62,4 +62,13 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- external -->
+  <remove-project name="platform/external/selinux" />
+
+  <!-- prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+
+  <!-- system -->
+  <remove-project name="platform/system/core" />
+
 </manifest>
