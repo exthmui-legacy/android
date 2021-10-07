@@ -68,6 +68,14 @@
   <!-- external -->
   <remove-project name="platform/external/selinux" />
 
+  <!-- frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 

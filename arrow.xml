@@ -24,8 +24,17 @@
   <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
 
+  <!-- framework repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
+
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" />
+
+  <!-- packages repos -->
+  <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="arrow" />
