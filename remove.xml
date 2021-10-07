@@ -73,6 +73,11 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
+  <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/interfaces" />
+
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
 
