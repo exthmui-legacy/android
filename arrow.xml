@@ -17,6 +17,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="android_art" remote="arrow" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow" />
+
   <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
 
