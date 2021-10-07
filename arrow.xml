@@ -23,6 +23,7 @@
 
   <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />

@@ -67,6 +67,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
