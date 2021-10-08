@@ -25,6 +25,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
