@@ -22,6 +22,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow" />
 
   <!-- external repos -->
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
 
