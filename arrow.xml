@@ -143,6 +143,7 @@
   <!-- vendor repos -->
   <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrow" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrow" />
