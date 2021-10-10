@@ -142,6 +142,8 @@
 
   <!-- system repos -->
   <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/qcom" name="android_system_qcom" remote="arrow" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
