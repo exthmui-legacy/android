@@ -95,6 +95,7 @@
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
