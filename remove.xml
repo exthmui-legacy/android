@@ -104,6 +104,7 @@
 
   <!-- system -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/sepolicy" />
 
