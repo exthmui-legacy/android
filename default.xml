@@ -40,6 +40,11 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.0" />
 
+  <remote name="exthm"
+           fetch="https://github.com/exTHmUI-12"
+           review="https://review.exthmui.cn/"
+           revision="refs/heads/exthm-12" />
+
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
 
@@ -1124,8 +1129,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- ArrowOS changes -->
+  <!-- ArrowOS ports and exTHmUI ports -->
   <include name="remove.xml" />
-  <include name="arrow.xml" />
+  <include name="arrow-port.xml" />
+  <include name="exthm.xml"/>
 
 </manifest>
