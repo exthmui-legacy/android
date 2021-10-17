@@ -1,4 +1,4 @@
-**中文｜[English](https://github.com/exthmui/android/blob/exthm-11/README_EN.md)**
+**中文｜[English](https://github.com/exTHmUI-12/manifests/blob/exthm-12/README_EN.md)**
 
 # exTHmUI
 
