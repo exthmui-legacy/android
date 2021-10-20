@@ -156,6 +156,7 @@
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
+  <project path="system/vold" name="android_system_vold" remote="arrow" />
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
