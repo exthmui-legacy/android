@@ -1,4 +1,4 @@
-**中文｜[English](https://github.com/exTHmUI-12/manifests/blob/exthm-12/README_EN.md)**
+**中文｜[English](https://github.com/exthmui/android/blob/exthm-12-tmp/README_EN.md)**
 
 # exTHmUI
 
@@ -6,11 +6,11 @@
 
 ![exthm logo](https://i.niupic.com/images/2020/06/16/8gWB.png)
 
-这是一个由国内东方众自行发起制作、以东方 Project 元素为特色的类原生 Android 项目，基于 [CAF AOSP](https://source.codeaurora.org/)
+这是一个由国内东方众自行发起制作、以东方 Project 元素为特色的类原生 Android 项目，基于 [AOSP](https://android.googlesource.com/)
 
 > exthm-11 EOL 时间为 2022 年中旬，届时请迁移至 exthm-12 或更新的分支
 
-> 本分支基于 CAF AOSP / Arrow OS Port 开发
+> 本分支基于 AOSP / Arrow OS Port 开发
 
 
 ## 同步源码
@@ -22,14 +22,14 @@
 要开始同步源码，请使用这些命令
 
 ```shell
-repo init -u https://github.com/exTHmUI-12/manifests.git -b exthm-12
+repo init -u https://github.com/exthmui/android.git -b exthm-12
 repo sync
 ```
 
 您也可以使用如下命令来初始化仓库，这样可以节省磁盘空间
 
 ```shell
-repo init -u https://github.com/exTHmUI-12/manifests.git -b exthm-12 --depth=1
+repo init -u https://github.com/exthmui/android.git -b exthm-12 --depth=1
 repo sync
 ```
 

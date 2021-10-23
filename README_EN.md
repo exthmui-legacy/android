@@ -1,12 +1,12 @@
-**[中文](https://github.com/exTHmUI-12/manifests/blob/exthm-12/README.MD) | English**
+**[中文](https://github.com/exthmui/android/blob/exthm-12-tmp/README.MD) | English**
 
 # exTHmUI
 
 ## What’s exTHmUI?
 
-![exthm logo](https://raw.githubusercontent.com/exTHmUI-12/manifests/exthm-12/logo.png)
+![exthm logo](https://raw.githubusercontent.com/exthmui/android/exthm-12-tmp/logo.png)
 
-exTHmUI is an open source Android project with Touhou elements, based on [CAF AOSP](https://source.codeaurora.org/). 
+exTHmUI is an open source Android project with Touhou elements, based on [AOSP](https://android.googlesource.com/). 
 
 ## Getting started
 
@@ -15,7 +15,7 @@ To get started with exTHmUI, you will need to get familiar with Repo and Version
 To initialize your local repository using the exTHmUI trees, use a command like this:
 
 ```shell
-repo init -u https://github.com/exTHmUI-12/manifests.git -b exthm-12
+repo init -u https://github.com/exthmui/android.git -b exthm-12
 repo sync
 ```
 
