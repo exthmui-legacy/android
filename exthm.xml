@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- build -->
-  <project path="manifest" name="manifests" remote="exthm" />
+  <project path="android" name="android" remote="exthm" />
   <project path="build/make" name="android_build" remote="exthm" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
