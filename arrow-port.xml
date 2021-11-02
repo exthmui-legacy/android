@@ -133,7 +133,6 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="arrow" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="arrow" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />

@@ -23,6 +23,7 @@
 <project path="device/exthm/sepolicy" name="android_device_exthm_sepolicy" remote="exthm" />
 
 <!-- packages -->
+<project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="exthm" />
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
 
 <!-- vendor -->
