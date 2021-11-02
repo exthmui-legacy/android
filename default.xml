@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-12.0.0_r7"
+  <default revision="refs/tags/android-12.0.0_r13"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
@@ -40,7 +40,7 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.0" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r7" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r13" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
