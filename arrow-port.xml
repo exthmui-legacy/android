@@ -9,6 +9,7 @@
   <!-- device repos -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="arrow" />
 
   <!-- external repos -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
@@ -16,6 +17,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
+  <project path="external/colorkt" name="android_external_colorkt" remote="arrow" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
@@ -23,11 +25,13 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
+  <project path="external/themelib" name="android_external_themelib" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
 
@@ -46,9 +50,9 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" /-->
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8996-R/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-R/Android.mk" /-->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-R/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
@@ -61,10 +65,11 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <!--linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" /-->
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
   <!--project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" revision="arrow-12.0-caf" />
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8916" />
@@ -84,10 +89,10 @@
   <project path="hardware/qcom-caf/msm8994/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8996" /-->
   <project path="hardware/qcom-caf/msm8996-R/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8996-R" />
   <project path="hardware/qcom-caf/msm8996-R/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8996-R" />
-  <project path="hardware/qcom-caf/msm8996-R/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8996-R" /-->
+  <project path="hardware/qcom-caf/msm8996-R/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8996-R" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8998" />
@@ -125,16 +130,21 @@
 
   <!-- packages repos -->
   <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow" clone-depth="1" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="arrow" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="arrow" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="arrow" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="arrow" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="arrow" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="arrow" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="arrow" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="arrow" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="arrow" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
@@ -167,12 +177,22 @@
   <!-- vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="arrow" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="arrow" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="arrow" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="arrow" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow" revision="arrow-12.0-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="arrow" revision="arrow-12.0-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow" revision="arrow-12.0-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="arrow" revision="arrow-12.0-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrow" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrow" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="arrow" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="arrow" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="arrow" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="arrow" />

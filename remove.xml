@@ -39,6 +39,11 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/gs101" />
+  <remove-project name="device/google/gs101-sepolicy" />
+  <remove-project name="device/google/gs-common" />
+  <remove-project name="device/google/raviole" />
+  <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/redbull" />
   <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redbull-kernel" />
@@ -75,6 +80,7 @@
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
@@ -98,17 +104,20 @@
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
