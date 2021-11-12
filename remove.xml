@@ -117,7 +117,6 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
