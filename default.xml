@@ -43,7 +43,7 @@
   <remote name="exthm"
            fetch="https://github.com/exthmui"
            review="https://review.exthmui.cn/"
-           revision="refs/heads/exthm-12-tmp" />
+           revision="refs/heads/exthm-12" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r13" />
   <contactinfo bugurl="go/repo-bug" />

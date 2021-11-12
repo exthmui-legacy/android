@@ -1,10 +1,10 @@
-**[中文](https://github.com/exthmui/android/blob/exthm-12-tmp/README.MD) | English**
+**[中文](https://github.com/exthmui/android/blob/exthm-12/README.MD) | English**
 
 # exTHmUI
 
 ## What’s exTHmUI?
 
-![exthm logo](https://raw.githubusercontent.com/exthmui/android/exthm-12-tmp/logo.png)
+![exthm logo](https://raw.githubusercontent.com/exthmui/android/exthm-12/logo.png)
 
 exTHmUI is an open source Android project with Touhou elements, based on [AOSP](https://android.googlesource.com/). 
 
