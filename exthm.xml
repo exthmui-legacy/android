@@ -21,6 +21,8 @@
 
 <!-- SELinux -->
 <project path="device/exthm/sepolicy" name="android_device_exthm_sepolicy" remote="exthm" />
+<project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="exthm" />
+<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="exthm" />
 
 <!-- packages -->
 <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="exthm" />

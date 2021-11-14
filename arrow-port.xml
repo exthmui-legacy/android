@@ -8,8 +8,6 @@
 
   <!-- device repos -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="arrow" />
 
   <!-- external repos -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
