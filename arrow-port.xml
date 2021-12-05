@@ -18,6 +18,7 @@
   <project path="external/colorkt" name="android_external_colorkt" remote="arrow" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
