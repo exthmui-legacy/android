@@ -120,8 +120,8 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="arrow" /-->
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
-  <!--project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" />
-  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" /-->
+  <!--project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" /-->
+  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
