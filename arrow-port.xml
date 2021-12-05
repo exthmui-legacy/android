@@ -162,6 +162,7 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/vold" name="android_system_vold" remote="arrow" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="arrow" />
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="arrow" />
