@@ -115,9 +115,9 @@
   <!--project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow"/>
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow"/-->
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="arrow" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
+  <!--project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="arrow" /-->
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
   <!--project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" /-->
