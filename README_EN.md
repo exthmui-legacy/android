@@ -8,6 +8,10 @@
 
 exTHmUI is an open source Android project with Touhou elements, based on [AOSP](https://android.googlesource.com/). 
 
+> exthm-11 EOL time is mid-2022, please migrate to exthm-12 or newer branches at that time.
+
+> Thank you very much for the technical support provided by [Shelling](https://github.com/cjybyjk), [ReallySnow](https://github.com/ReallySnow)，[ArrowOS](https://github.com/ArrowOS) and [DerpFest](https://github.com/DerpFest-11)!
+
 ## Getting started
 
 To get started with exTHmUI, you will need to get familiar with Repo and Version Control with Git.
