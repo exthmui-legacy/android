@@ -25,6 +25,7 @@
 <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="exthm" />
 
 <!-- packages -->
+<project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="exthm" />
 <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="exthm" />
 <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="exthm"/>
 <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="exthm" />
