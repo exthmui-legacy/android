@@ -34,6 +34,7 @@
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
 <project path="packages/apps/PrebuiltsApk" name="android_packages_apps_PrebuiltsApk" remote="exthm" clone-depth="1"/>
 <project path="packages/apps/YellowPage" name="android_packages_apps_YellowPage" remote="exthm" />
+<project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="exthm" />
 <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="exthm" />
 
 <!-- prebuilts -->

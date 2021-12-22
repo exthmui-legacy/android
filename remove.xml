@@ -111,6 +111,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
