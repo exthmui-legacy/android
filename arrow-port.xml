@@ -123,7 +123,6 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
 
   <!-- packages repos -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="arrow" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="arrow" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="arrow" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="arrow" />
