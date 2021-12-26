@@ -30,6 +30,7 @@
 <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="exthm" />
 <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="exthm" />
 <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="exthm"/>
+<project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="exthm"/>
 <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="exthm" />
 <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="exthm" />
 <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="exthm" />
