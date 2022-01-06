@@ -336,7 +336,7 @@
   <project path="external/rappor" name="platform/external/rappor" groups="pdk" remote="aosp" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk" remote="aosp" />
   <project path="external/rmi4utils" name="platform/external/rmi4utils" groups="pdk" remote="aosp" />
-  <project path="external/robolectric-shadows" name="LineageOS/android_external_robolectric-shadows" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/robolectric-shadows" remote="lineage" name="android_external_robolectric-shadows" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" remote="aosp" />
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk" remote="aosp" />
   <project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" remote="aosp" />
@@ -381,8 +381,8 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
-  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
-  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
+  <project path="external/toybox" remote="lineage" name="android_external_toybox" groups="pdk" />
+  <project path="external/tremolo" remote="lineage" name="android_external_tremolo" groups="pdk" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp" />
   <project path="external/u-boot" name="platform/external/u-boot" groups="pdk" remote="aosp" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
@@ -512,7 +512,7 @@
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="aosp" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
-  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
+  <project path="libcore" remote="lineage" name="android_libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" remote="lineage" name="android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" remote="lineage" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
@@ -552,12 +552,12 @@
   <project path="packages/apps/QuickAccessWallet" name="platform/packages/apps/QuickAccessWallet" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" remote="lineage" name="android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/SecureElement" name="LineageOS/android_packages_apps_SecureElement" groups="apps_se,pdk-fs" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
-  <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
-  <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
+  <project path="packages/apps/SecureElement" remote="lineage" name="android_packages_apps_SecureElement" groups="apps_se,pdk-fs" />
+  <project path="packages/apps/SettingsIntelligence" remote="lineage" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
+  <project path="packages/apps/Stk" remote="lineage" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/StorageManager" remote="lineage" name="android_packages_apps_StorageManager" groups="pdk-fs" />
+  <project path="packages/apps/Tag" remote="lineage" name="android_packages_apps_Tag" groups="pdk-fs" />
+  <project path="packages/apps/Terminal" remote="lineage" name="android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
   <project path="packages/apps/ThemePicker" remote="lineage" name="android_packages_apps_ThemePicker" groups="pdk-fs" />
   <project path="packages/apps/Traceur" remote="lineage" name="android_packages_apps_Traceur" groups="pdk-fs" />
@@ -696,10 +696,10 @@
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" remote="aosp" />
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" remote="aosp" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" remote="aosp" />
-  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
-  <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
-  <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
-  <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" />
+  <project path="system/timezone" remote="lineage" name="android_system_timezone" groups="pdk" />
+  <project path="system/tools/aidl" remote="lineage" name="android_system_tools_aidl" groups="pdk" />
+  <project path="system/tools/hidl" remote="lineage" name="android_system_tools_hidl" groups="pdk" />
+  <project path="system/tools/mkbootimg" remote="lineage" name="android_system_tools_mkbootimg" groups="pdk" />
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" remote="aosp" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/update_engine" remote="lineage" name="android_system_update_engine" groups="pdk" />
