@@ -33,6 +33,7 @@
 <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="exthm"/>
 <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="exthm" />
 <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="exthm" />
+<project path="packages/apps/Music" name="android_packages_apps_Music" remote="exthm" />
 <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="exthm" />
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="exthm" />
 <project path="packages/apps/PrebuiltsApk" name="android_packages_apps_PrebuiltsApk" remote="exthm" clone-depth="1"/>
