@@ -38,7 +38,7 @@
            revision="refs/heads/arrow-12.0" />
 
   <remote name="exthm"
-           fetch="https://github.com/exthmui"
+           fetch="https://github.com/exthmui-legacy"
            review="https://review.exthmui.cn/"
            revision="refs/heads/exthm-12" />
 

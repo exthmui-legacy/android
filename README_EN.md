@@ -1,16 +1,14 @@
-**[中文](https://github.com/exthmui/android/blob/exthm-12/README.MD) | English**
+**[中文](https://github.com/exthmui-legacy/android/blob/exthm-12/README.MD) | English**
 
 # exTHmUI
 
 ## What’s exTHmUI?
 
-![exthm logo](https://raw.githubusercontent.com/exthmui/android/exthm-12/logo.png)
+![exthm logo](https://raw.githubusercontent.com/exthmui-legacy/android/exthm-12/logo.png)
 
 exTHmUI is an open source Android project with Touhou elements, based on [AOSP](https://android.googlesource.com/). 
 
-> exthm-11 EOL time is mid-2022, please migrate to exthm-12 or newer branches at that time.
-
-> Thank you very much for the technical support provided by [Shelling](https://github.com/cjybyjk), [ReallySnow](https://github.com/ReallySnow)，[ArrowOS](https://github.com/ArrowOS) and [DerpFest](https://github.com/DerpFest-11)!
+exTHmUI-12 is already dead. Move to [this page](https://github.com/exthmui/android) to get the newest code.
 
 ## Getting started
 
@@ -19,7 +17,7 @@ To get started with exTHmUI, you will need to get familiar with Repo and Version
 To initialize your local repository using the exTHmUI trees, use a command like this:
 
 ```shell
-repo init -u https://github.com/exthmui/android.git -b exthm-12
+repo init -u https://github.com/exthmui-legacy/android.git -b exthm-12
 repo sync
 ```
 
@@ -40,7 +38,3 @@ then feel free to use the build script:
 ```
 
 The script is interactive so everything else is self-explanatory.
-
-## Contributing
-
-We always welcome developers to submit patches via [exTHmUI Code Review](https://review.exthmui.cn/).
