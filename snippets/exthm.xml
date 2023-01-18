@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="exthm"
+  <remote  name="exthmui-legacy"
            fetch="https://github.com/exthmui"
            revision="refs/heads/exthm-9" />
 
