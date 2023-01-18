@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="exthmui-legacy"
-           fetch="https://github.com/exthmui"
+  <remote  name="exthmui"
+           fetch="https://github.com/exthmui-legacy"
            revision="refs/heads/exthm-9" />
 
   <remote  name="exthmui-devices"
