@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="exthm"
-           fetch="https://github.com/exTHmUI-legacy"
+           fetch="http://192.168.110.191:3000/exTHmUI/"
            review="review.exthmui.cn"
            revision="refs/heads/exthm-11" />
 
