@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="exthm"
-           fetch="https://github.com/exthmui"
+           fetch="https://github.com/exthmui-legacy"
            revision="refs/heads/exthm-10" />
 
   <remote  name="exthmui-devices"
